@@ -1,0 +1,21 @@
+* {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333745;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #333745;
+}
+
+body::-webkit-scrollbar-track,
+body::-webkit-scrollbar-button {
+    background: transparent;
+}
